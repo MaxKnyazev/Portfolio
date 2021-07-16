@@ -1,0 +1,36 @@
+.header {
+  background-color: rgb(134, 134, 134);
+  background: url("../../img/Header.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  // background-image: inherit;
+
+  &__deform {
+    position: absolute;
+    transform: rotate(2.7deg);
+    left: -50vw;
+    top: -10vh;
+    width: 200vw;
+    height: 30vh;
+    background-color: #131313;
+  }
+
+  &__content {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    margin-left: 2vw;
+    margin-right: 5vw;
+    color: #fff;
+    font-family: 'Haetten';
+    font-weight: normal;
+    font-size: 90px;
+  }
+}
