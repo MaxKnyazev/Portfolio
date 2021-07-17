@@ -3,7 +3,12 @@
   background: url("../../img/Header.png") no-repeat;
   background-size: cover;
   position: relative;
-  // background-image: inherit;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 
   &__deform {
     position: absolute;
@@ -20,6 +25,8 @@
     display: flex;
     width: 100vw;
     height: 12vh;
+    left: 0;
+    top: 0;
 
     justify-content: space-between;
     align-items: center;
@@ -28,9 +35,25 @@
   &__title {
     margin-left: 2vw;
     margin-right: 5vw;
-    color: #fff;
-    font-family: 'Haetten';
-    font-weight: normal;
     font-size: 90px;
+    font-weight: normal;
+    font-family: 'Haetten';
+  }
+
+  &__info {
+    font-size: 60px;
+    font-family: 'Calibri';
+    margin-top: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__arrow {
+    margin-bottom: 5vh;
+    width: 130px;
+    height: 130px;
   }
 }
