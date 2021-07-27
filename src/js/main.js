@@ -1,6 +1,3 @@
-/**
-  * название функции
-  *
-  * @param {number} first - первое число
-  * @returns {number}
-  */
+$(document).ready(function() {
+  $('#pagepiling').pagepiling();
+})
