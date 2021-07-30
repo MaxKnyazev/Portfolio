@@ -78,5 +78,14 @@ ul {
 .separator {
   width: 2px;
   height: 100vh;
-  background-color: #1b1b1b;
+  background-color: #161616;
+}
+
+.underline {
+  margin-top: 3px;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 200ms all linear;
 }
