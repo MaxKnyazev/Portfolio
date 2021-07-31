@@ -39,7 +39,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    transition: 200ms all linear;
+    transition: 300ms all linear;
 
     padding: 30px;
     text-align: center;
@@ -58,5 +58,10 @@
   &__block:hover &__text {
     top: 40vh;
     opacity: 1;
+  }
+
+  &__logo {
+    width: calc(30px + 2.5vw);
+    margin-top: 10px;
   }
 }
