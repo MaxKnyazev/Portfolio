@@ -18,6 +18,9 @@
     align-items: center;
     flex-direction: column;
     transition: all 200ms linear;
+    font-family: 'Haetten';
+    font-weight: normal;
+    font-size: 40px;
   }
 
   &__text {
@@ -29,6 +32,8 @@
     padding: 0 3vw;
     max-width: 30vw;
     top: 60vh;
+    font-family: 'Calibri';
+    font-size: 23px;
   }
 
   &__block {

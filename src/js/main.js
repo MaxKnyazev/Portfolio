@@ -17,10 +17,10 @@ window.onload = function() {
       loopTop: false,
       css3: true,
       navigation: {
-          'textColor': '#000',
-          'bulletsColor': '#000',
+          'textColor': 'white',
+          'bulletsColor': '#00d8ff',
           'position': 'right',
-          'tooltips': ['section1', 'section2', 'section3', 'section4']
+          'tooltips': ['Header', 'About me', 'My skills', 'Get in touch']
       },
       normalScrollElements: null,
       normalScrollElementTouchThreshold: 5,

@@ -89,3 +89,46 @@ ul {
   border-radius: 2.5px;
   transition: 300ms all linear;
 }
+
+#pp-nav {
+  margin-right: 0.5vw;
+
+  & ul {
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  & ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  & li .active span {
+    background-color: #00d8ff;
+  }
+
+  & ul li a span {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00d8ff;
+    transition: 200ms all linear;
+    opacity: 0.3;
+
+    &:hover {
+      background-color: #00d8ff;
+      border: 2px solid red;
+      opacity: 1;
+    }
+  }
+}
+
+.pp-tooltip {
+  color: #00d8ff;
+  font-size: 20px;
+  font-family: 'Calibri';
+}
