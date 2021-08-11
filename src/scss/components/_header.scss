@@ -40,12 +40,13 @@
   &__content {
     /* position: absolute; */
     display: flex;
-    width: 100vw;
-    height: 12vh;
-    left: 0;
-    top: 0;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 12vh;
+    // left: 0;
+    // top: 0;
     z-index: 5;
     // background-color: #131313;
     // background-color: #e91e63;
