@@ -1,9 +1,9 @@
 window.onload = function() {
 
-  console.log('Страница загружена');
+  console.log('Страница загружена...');
 
   $(document).ready(function() {
-    console.log('jQuery!!!');
+    console.log('jQuery : pagepiling started...');
 
     $('#pagepiling').pagepiling({
       menu: null,
@@ -30,13 +30,25 @@ window.onload = function() {
       animateAnchor: false,
 
       //events
-      onLeave: function(index, nextIndex, direction){},
-      afterLoad: function(anchorLink, index){},
-      afterRender: function(){},
+      // onLeave: function(index, nextIndex, direction){},
+      // afterLoad: function(anchorLink, index){},
+      // afterRender: function(){},
 
     });
 
-    console.log('pagepiling!!!')
+    console.log('======== pagepiling is loaded...')
   });
+
+
+  // maxgraph();
+
+
+  // const logo = document.querySelector('.logo');
+
+  // console.log('main.js === logo === ');
+  // console.log(logo);
+
+  startAnimationsLogo();
+
 
 };

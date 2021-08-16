@@ -1,1 +1,3 @@
-console.log('maxgraph');
+function maxgraph() {
+  console.log('maxgraph...++');
+}

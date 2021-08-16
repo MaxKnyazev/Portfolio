@@ -1,0 +1,8 @@
+logo.js ---------------------------------------------------
+
+//TODO ::: вынести timerId в глобальную область
+//TODO ::: и повесить обработчик на unload
+
+// window.addEventListener('unload', function() {
+//   clearTimeout(timerId);
+// });
