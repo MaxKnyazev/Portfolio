@@ -81,7 +81,7 @@
 
   &__socials {
     width: calc(150px + 4vmin);
-    margin-top: 50px;
+    margin-top: 10px;
   }
 }
 
@@ -103,5 +103,29 @@
   &__svg:hover {
     fill: #00d8ff;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width : 430px) {
+  .header {
+
+    &__content {
+      display: block;
+    }
+
+    &__socials {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    &__deform {
+      top: -6vh;
+    }
+  }
+
+  .wrapper {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
   }
 }

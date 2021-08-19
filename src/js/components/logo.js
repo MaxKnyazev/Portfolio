@@ -1,3 +1,5 @@
+let timerId;
+
 function startAnimationsLogo() {
   console.log('.........startAnimationsLogo..........');
 
@@ -29,7 +31,7 @@ function startAnimationsLogo() {
   }
 
   //рекурсивный вызов setTimeout
-  let timerId = setTimeout(function rotate() {
+  timerId = setTimeout(function rotate() {
 
     ang += 0.90;
     count += 1;
@@ -94,10 +96,6 @@ function startAnimationsLogo() {
 
 }
 
-
-//TODO ::: вынести timerId в глобальную область
-//TODO ::: и повесить обработчик на unload
-
-// window.addEventListener('unload', function() {
-//   clearTimeout(timerId);
-// });
+window.addEventListener('unload', function() {
+  clearTimeout(timerId);
+});
